@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li{
+    padding: 0.5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+    background-image: url("Images/pexels-vishnu-r-nair-1105666.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333;
+}
+
+.band-name-large {
+    font-size: 6em;
+}
+
+.content {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
+
+.about-band {
+    float: left;
+    height: 317.5px;
+    width: 500px;
+    margin: 15px;
+    border-radius: 70%;
+}
+
+.main-footer {
+    background-image: url("Images/pexels-vishnu-r-nair-1105666.jpg");
+    color: azure;
+    padding: .25em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 0.5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
